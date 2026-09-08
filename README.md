@@ -1,1 +1,1 @@
-# talkx-stg-releases
+# talkx-prod-releases
