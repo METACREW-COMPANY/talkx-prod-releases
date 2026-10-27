@@ -2,7 +2,7 @@
   "schema": 1,
   "env": "prod",
   "repo": "METACREW-COMPANY/talkx-prod-releases",
-  "updatedAt": "2026-10-27T07:52:39.369Z",
+  "updatedAt": "2026-10-27T08:02:21.204Z",
   "natives": {
     "android": {
       "473": {
@@ -123,6 +123,32 @@
       }
     },
     "ios": {
+      "2": {
+        "appVersion": "1.0.27",
+        "bridgeApiVersion": 1,
+        "capacitor": "8",
+        "capabilities": [
+          "@capacitor/core@8",
+          "@capacitor-community/file-opener@8",
+          "@capacitor-community/media@9",
+          "@capacitor-firebase/messaging@8",
+          "@capacitor/app@8",
+          "@capacitor/app-launcher@8",
+          "@capacitor/browser@8",
+          "@capacitor/filesystem@8",
+          "@capacitor/preferences@8",
+          "@capacitor/share@8",
+          "@capacitor/status-bar@8",
+          "@capawesome/capacitor-badge@8",
+          "@capgo/capacitor-speech-recognition@8",
+          "@capgo/capacitor-updater@8",
+          "appsflyer-capacitor-plugin@7",
+          "mobile-ci-downloader@1+d8999cc9d441"
+        ],
+        "nativeInputs": "54329b62defe",
+        "commit": "d3d611c505ff1042d1a698f292f20dc7a6d65b0a",
+        "builtAt": "2026-10-27T08:02:18.807Z"
+      },
       "473": {
         "appVersion": "1.0.25",
         "bridgeApiVersion": 1,
@@ -472,7 +498,7 @@
     }
   ],
   "kind": "history",
-  "rev": 6,
+  "rev": 7,
   "events": [
     {
       "at": "2026-10-26T04:25:36.935Z",
@@ -529,10 +555,20 @@
       "buildId": "web-4.0.2-d3d611c",
       "from": "pending",
       "to": "approved"
+    },
+    {
+      "at": "2026-10-27T08:02:21.204Z",
+      "rev": 7,
+      "actor": "github-actions[bot]",
+      "run": "https://github.com/GOTOX-INC/talkx-apps/actions/runs/40469690462",
+      "type": "register",
+      "platform": "ios",
+      "nativeBuild": "2",
+      "appVersion": "1.0.27"
     }
   ],
   "mirror": {
-    "assetId": 680865465,
-    "mirroredAt": "2026-10-27T07:52:46.241Z"
+    "assetId": 680887178,
+    "mirroredAt": "2026-10-27T08:02:33.252Z"
   }
 }
