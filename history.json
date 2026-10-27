@@ -2,7 +2,7 @@
   "schema": 1,
   "env": "prod",
   "repo": "METACREW-COMPANY/talkx-prod-releases",
-  "updatedAt": "2026-10-27T07:50:43.798Z",
+  "updatedAt": "2026-10-27T07:52:39.369Z",
   "natives": {
     "android": {
       "473": {
@@ -295,7 +295,7 @@
           "mobile-ci-downloader@1+d8999cc9d441"
         ]
       },
-      "status": "pending",
+      "status": "approved",
       "rollout": 100,
       "signature": "KNze6WCerIdzKRVMnNVpZKA0H3sksf9z0w9WNYFnhA28APUZAjGvm98Cz18Z0u1FTKDUx86PHFIjYSQnwUPu_Q"
     },
@@ -472,7 +472,7 @@
     }
   ],
   "kind": "history",
-  "rev": 5,
+  "rev": 6,
   "events": [
     {
       "at": "2026-10-26T04:25:36.935Z",
@@ -518,10 +518,21 @@
       "type": "publish",
       "buildId": "web-4.0.2-d3d611c",
       "to": "pending"
+    },
+    {
+      "at": "2026-10-27T07:52:39.369Z",
+      "rev": 6,
+      "actor": "ditavo98",
+      "run": "https://github.com/GOTOX-INC/talkx-apps/actions/runs/40469757885",
+      "note": "web version 4.0.2: modifications regarding schedule push notifications",
+      "type": "status",
+      "buildId": "web-4.0.2-d3d611c",
+      "from": "pending",
+      "to": "approved"
     }
   ],
   "mirror": {
-    "assetId": 680860880,
-    "mirroredAt": "2026-10-27T07:50:57.532Z"
+    "assetId": 680865465,
+    "mirroredAt": "2026-10-27T07:52:46.241Z"
   }
 }
